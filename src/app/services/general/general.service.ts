@@ -20,5 +20,11 @@ export class GeneralService {
       link: '/books',
       isActive: false,
     },
+    {
+      title: 'Mobiles',
+      id: 2,
+      link: '/mobiles',
+      isActive: false,
+    },
   ];
 }
