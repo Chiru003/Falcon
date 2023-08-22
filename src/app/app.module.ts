@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { BooksComponent } from './pages/books/books.component';
+import { CardComponent } from './shared/card/card.component';
+import { MobilesComponent } from './pages/mobiles/mobiles.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    BooksComponent
+    BooksComponent,
+    CardComponent,
+    MobilesComponent
   ],
   imports: [
     BrowserModule,

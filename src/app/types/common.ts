@@ -4,3 +4,9 @@ export interface menu {
     link: string;
     isActive: boolean;
 }
+
+export interface cardDetail {
+    numberOfCardsInRow: number;
+    height: number;
+    cardHeaders: string[];
+}

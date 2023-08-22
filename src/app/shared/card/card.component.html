@@ -1,0 +1,12 @@
+<div class="row row-cols-1 row-cols-md-6 g-4">
+    <div class="col" *ngFor="let card of cards">
+      <div class="card">
+        <img [height]="cardDetails.height" [src]="card.coverFileName" class="card-img-top" alt="...">
+        <div class="card-body">
+          <div *ngFor="let header of cardDetails.cardHeaders">
+            <strong>{{header}}</strong>: {{card[header.toLowerCase()]}}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
