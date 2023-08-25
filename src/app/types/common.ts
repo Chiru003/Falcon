@@ -10,3 +10,4 @@ export interface cardDetail {
     height: number;
     cardHeaders: string[];
 }
+
