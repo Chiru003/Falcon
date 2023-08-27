@@ -11,7 +11,7 @@ export class BooksComponent {
 
   books: book[] = []
   cardDetails: cardDetail = {
-    numberOfCardsInRow: 6,
+    numberOfCardsInRow: 0,
     height: 220,
     cardHeaders: [
       "Price",
@@ -19,7 +19,6 @@ export class BooksComponent {
       "Category"
     ]
   }
-
   constructor(private booksService: BooksService) {}
 
   ngOnInit() {
@@ -32,3 +31,4 @@ export class BooksComponent {
     })
   }
 }
+  
