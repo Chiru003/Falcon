@@ -11,7 +11,7 @@ export class BooksComponent {
 
   books: book[] = []
   cardDetails: cardDetail = {
-    numberOfCardsInRow: 0,
+    numberOfCardsInRow: 6,
     height: 220,
     cardHeaders: [
       "Price",

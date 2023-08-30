@@ -6,19 +6,6 @@ import { cardDetail } from 'src/app/types/common';
   providedIn: 'root'
 })
 export class ChocolatesService {
-  cardDetails: cardDetail = {
-    numberOfCardsInRow: 4,
-    height: 250,
-    cardHeaders: [
-      "Name", 
-      "Brand", 
-      "Flavor",
-      "Note"
-    ]
-  };
-  getcardDetails(){
-    return this.cardDetails;
-  }
   mockData: chocolate[] = [
     {
       name: "Bournville",
