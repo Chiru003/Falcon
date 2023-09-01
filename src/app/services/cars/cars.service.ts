@@ -7,7 +7,7 @@ import { carDetail } from '../../types/cars';
 export class CarsService {
 
   constructor() { }
-  carDetails: carDetail [] = [
+  carDetails: carDetail[] = [
     {
       name:"crysta",
       brand:"Innova",
