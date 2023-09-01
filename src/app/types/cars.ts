@@ -3,6 +3,6 @@ export interface carDetail {
     brand:string,
     fuel:string,
     price:number,
-    coverFileName:string;
+    coverFileName:string,
     description:string,
 }
