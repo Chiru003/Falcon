@@ -19,7 +19,6 @@ export class BooksComponent {
       "Category"
     ]
   }
-
   constructor(private booksService: BooksService) {}
 
   ngOnInit() {
@@ -32,3 +31,4 @@ export class BooksComponent {
     })
   }
 }
+  

@@ -31,6 +31,12 @@ export class GeneralService {
       id:4,
       link:'/cars',
       isActive: false,
+    },
+    {
+      title: 'Chocolates',
+      id: 3,
+      link: '/chocolates',
+      isActive: false,
     }
   ];
 }
