@@ -15,7 +15,7 @@ export class CarsComponent {
 
   carDetails: carDetail [] = []
   cardDetails: cardDetail = {
-    numberOfCardsInRow: 4,
+    numberOfCardsInRow: 6,
     height: 220,
     cardHeaders: [
       "Name",

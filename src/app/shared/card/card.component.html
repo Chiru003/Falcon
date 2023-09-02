@@ -1,4 +1,4 @@
-<div class="row row-cols-1 row-cols-md-6 g-4">
+<div class="row row-cols-1 g-4" [class]="'row-cols-md-'+ cardDetails.numberOfCardsInRow">
     <div class="col" *ngFor="let card of cards">
       <div class="card">
         <img [height]="cardDetails.height" [src]="card.coverFileName" class="card-img-top" alt="...">
