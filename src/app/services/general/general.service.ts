@@ -22,8 +22,14 @@ export class GeneralService {
     },
     {
       title: 'Mobiles',
-      id: 2,
+      id: 3,
       link: '/mobiles',
+      isActive: false,
+    },
+    {
+      title:"Cars",
+      id:4,
+      link:'/cars',
       isActive: false,
     },
     {
