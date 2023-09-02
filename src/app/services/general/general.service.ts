@@ -26,5 +26,11 @@ export class GeneralService {
       link: '/mobiles',
       isActive: false,
     },
+    {
+      title: 'Chocolates',
+      id: 3,
+      link: '/chocolates',
+      isActive: false,
+    }
   ];
 }
